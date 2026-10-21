@@ -1,0 +1,166 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0a1530"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="EJ Labor"><meta name="description" content="EuroJackpot Labor – lokale Lernsimulation und historischer Blindtest"><style>
+:root{color-scheme:dark;--bg:#071125;--card:#101d37;--card2:#172743;--edge:#2a3b58;--text:#edf3ff;--muted:#94a6c1;--blue:#699fff;--aqua:#56e2be;--gold:#f3ca73;--green:#56ddb0;--red:#f68f99}*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;background:var(--bg)}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);margin:0;line-height:1.45}.shell{max-width:640px;margin:auto;min-height:100dvh;padding-bottom:104px}.hero{padding:34px 21px 27px;background:radial-gradient(ellipse at top left,#1e4279 0%,#0f2040 58%,#08152c 100%);border-radius:0 0 28px 28px;border-bottom:1px solid #29436b}.eyebrow{letter-spacing:1.8px;font-weight:750;font-size:10px;color:var(--aqua);margin-bottom:8px}.brand{display:flex;align-items:center;gap:13px}.symbol{font-size:28px;width:52px;height:52px;display:grid;place-items:center;border:1px solid #5078ba;border-radius:16px;background:#1a3968;color:#ffe1a2}.brand h1{font-size:24px;line-height:1.1;margin:0;letter-spacing:-.6px}.brand h1 span{font-weight:400;color:var(--blue)}.brand p{font-size:12px;margin:7px 0 0;color:#b4c4de}.status{margin-top:24px;display:inline-flex;align-items:center;gap:9px;padding:8px 11px;border-radius:99px;background:#ffffff10;color:#bbcee6;font-size:12px}.dot{height:8px;width:8px;border-radius:100%;background:var(--gold)}.status.ready .dot{background:var(--aqua)}main{padding:18px 17px}.screen{display:none}.screen.active{display:block}.section-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-end;margin-top:12px;margin-bottom:4px}.section-head.compact{margin-top:22px;margin-bottom:12px}.section-head h2{font-size:22px;margin:0;letter-spacing:-.45px}.section-head h3{font-size:16px;margin:0}.helper{color:var(--muted);font-size:12.5px;margin:7px 0 19px}.date-chip{background:#1b3251;border:1px solid #2b527c;color:#d2e3fc;border-radius:9px;font-size:12px;font-weight:700;padding:7px 9px;white-space:nowrap}.tickets{display:grid;gap:11px}.ticket{background:var(--card);border:1px solid var(--edge);border-radius:18px;padding:15px}.ticket-top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:12px}.ticket-top b{font-size:12px;letter-spacing:.4px}.ticket-top span{font-size:10px;color:#9eb0c9}.balls{display:flex;gap:5px;align-items:center;justify-content:space-between}.ball{height:43px;min-width:0;aspect-ratio:1;border-radius:50%;background:#e8eef9;color:#15233d;display:grid;place-items:center;font-size:17px;font-weight:800;box-shadow:inset 0 -3px 1px #b0c5e052;flex:0 1 43px}.ball.euro{background:#f6d581;color:#5d400e}.plus{font-size:13px;color:#5d7695}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.metric{background:#121f38;border-radius:15px;border:1px solid var(--edge);padding:14px 12px;min-height:95px}.metric label{display:block;font-size:11px;color:#9eaec6}.metric strong{display:block;margin-top:8px;font-size:20px;line-height:1.16;overflow-wrap:anywhere}.models{display:grid;gap:9px}.model{background:var(--card);border:1px solid var(--edge);padding:11px 12px;border-radius:12px}.model.active{border-color:#4b92a3}.model-heading{display:flex;justify-content:space-between;gap:8px;margin-bottom:7px;font-size:12px}.model-heading em{font-style:normal;color:var(--muted);font-size:11px}.bar{height:5px;width:100%;border-radius:8px;background:#253852;overflow:hidden}.bar>div{height:100%;border-radius:8px;background:#5e8cb6}.model.active .bar>div{background:var(--aqua)}.note{font-size:12px;color:#afc1d9;line-height:1.6;border:1px solid #284164;background:#102540;border-radius:13px;margin-top:17px;padding:13px}.note.small{margin-top:14px}.empty{padding:27px 20px;color:var(--muted);background:var(--card);border:1px dashed #3c5576;text-align:center;border-radius:16px;font-size:13px}.history-meta{font-size:12px;color:#a9c0da;background:#172843;border:1px solid #2d4765;padding:12px;border-radius:12px;margin:6px 0 14px}.history-list{display:grid;gap:10px;margin-bottom:16px}.history-entry{border:1px solid var(--edge);background:var(--card);border-radius:13px;overflow:hidden}.history-entry summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;padding:13px}.history-entry summary::-webkit-details-marker{display:none}.history-entry small{color:var(--muted);font-size:11px}.rank{color:#f3c774;font-weight:750;font-size:12px}.rank.win{color:var(--aqua)}.history-body{padding:0 12px 13px}.history-body p{margin:6px 0 10px;color:var(--muted);font-size:12px}.history-body .ticket{margin-top:7px;padding:10px;border-radius:11px}.history-body .ball{height:35px;flex-basis:35px;font-size:14px}.history-body .ticket-top{margin-bottom:6px}.panel{border:1px solid var(--edge);background:var(--card);border-radius:18px;padding:17px 15px;margin:16px 0}.panel h3{margin:0 0 9px;font-size:16px}.panel p{color:var(--muted);font-size:12.5px;line-height:1.55}.primary,.outline,.upload{min-height:44px;border-radius:12px;padding:11px 12px;font-weight:700;font-size:13px;cursor:pointer;text-align:center;display:block}.primary{background:#77b8f5;border:none;color:#06162f}.outline{border:1px solid #496281;background:#1a2c48;color:#ecf4fc}.wide{width:100%}.divider-label{text-align:center;color:#7589a6;letter-spacing:2px;font-size:10px;margin:18px 0 12px}.upload{border:1px dashed #7990a9;color:#cddcec;display:flex;flex-direction:column;align-items:center;justify-content:center}.upload span{font-size:10px;color:#8ca2ba;margin-top:2px;font-weight:400}.info{border-radius:11px;padding:11px;background:#1b2b45;margin-top:15px;color:#aabed8;font-size:11px;white-space:pre-wrap;overflow-wrap:anywhere}.input-title{color:#bacce3;font-size:12px;display:block;margin:12px 0 6px}input[type=date]{color:#f0f7ff;background:#1d3150;border:1px solid #51678a;padding:11px;border-radius:10px;width:100%;font-size:16px}.stack{display:grid;gap:9px}.bottom{display:grid;grid-template-columns:1fr 1fr 1fr;position:fixed;bottom:0;left:50%;transform:translateX(-50%);max-width:640px;width:100%;background:rgba(10,21,42,.95);backdrop-filter:blur(15px);border-top:1px solid #2c405c;padding:10px 12px calc(11px + env(safe-area-inset-bottom));z-index:8}.tab{background:none;border:0;color:#8ea4c0;display:grid;place-items:center;gap:1px;font-size:10px;cursor:pointer}.tab.active{color:#6ee0ce}.navicon{font-size:23px;line-height:28px}.toast{position:fixed;top:10px;left:50%;transform:translate(-50%,-150%);background:#26456c;border:1px solid #5778a0;color:white;padding:10px 14px;border-radius:12px;z-index:12;max-width:95%;font-size:12px;transition:transform .2s}.toast.show{transform:translate(-50%,0)}@media(max-width:375px){.ball{height:38px;flex-basis:38px;font-size:15px}.hero{padding-left:16px;padding-right:16px}.brand h1{font-size:21px}.brand p{font-size:11px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+</style><title>EuroJackpot Lernlabor</title></head>
+<body><div class="shell"><header class="hero"><div class="eyebrow">PRIVATES FORSCHUNGSPROJEKT</div><div class="brand"><div class="symbol">✦</div><div><h1>EuroJackpot <span>Labor</span></h1><p>Fünf Jahre zurück. Ziehung für Ziehung lernen.</p></div></div><div class="status" id="dataStatus"><span class="dot"></span><span>Archiv noch nicht geladen</span></div></header>
+<main>
+  <section id="screen-home" class="screen active"><div class="section-head"><div><div class="eyebrow">NÄCHSTE SIMULATION</div><h2>Vier Probentipps</h2></div><span class="date-chip" id="nextDate">–</span></div><p class="helper">Nur zur Forschung. Keine echten Spielscheine, kein Geldeinsatz.</p><div class="tickets" id="ticketList"><div class="empty">Lade das historische Archiv, damit das Lernsystem starten kann.</div></div>
+  <div class="metrics"><div class="metric"><label>Trainierte Ziehungen</label><strong id="metricDraws">0</strong></div><div class="metric"><label>Mind. 1 Gewinnklasse</label><strong id="metricWins">–</strong></div><div class="metric"><label>Historische Trefferquote</label><strong id="metricRate">–</strong></div><div class="metric"><label>Aktuelle Lernmethode</label><strong id="metricModel">–</strong></div></div>
+  <div class="section-head compact"><h3>Aktueller Lernstand</h3></div><div id="modelList" class="models"><div class="empty">Noch keine Berechnung.</div></div><div class="note"><b>Wissenschaftlich wichtig:</b> Die App verändert ihre Auswahlmethode auf Basis vergangener Ergebnisse. Das beweist keine Vorhersagekraft. Jeder historische Tipp wird berechnet, <em>bevor</em> die zugehörige Ziehung ausgewertet wird.</div></section>
+  <section id="screen-history" class="screen"><div class="section-head"><div><div class="eyebrow">CHRONOLOGISCHER RÜCKTEST</div><h2>Lernprotokoll</h2></div></div><p class="helper">Die Prognose steht immer vor dem echten Ergebnis. Tippe auf eine Ziehung für alle vier damals erzeugten Reihen.</p><div class="history-meta" id="historyMeta">Noch keine Ergebnisse.</div><div id="historyList" class="history-list"></div><button class="outline wide" id="btnExportLog">Protokoll als CSV sichern</button></section>
+  <section id="screen-data" class="screen"><div class="section-head"><div><div class="eyebrow">QUELLEN & EINSTELLUNGEN</div><h2>Archiv verwalten</h2></div></div><div class="panel"><h3>Historische Daten laden</h3><p>Die App lädt öffentliche Archivzahlen. Dabei wird ein externer Community-Datensatz verwendet; wichtige Ergebnisse sollten mit offiziellen Quellen abgeglichen werden.</p><button class="primary wide" id="btnSync">Archiv online aktualisieren</button><div class="divider-label">ODER EIGENE DATEI</div><label class="upload" for="csvFile">CSV-Datei vom iPhone auswählen <span>date,n1,n2,n3,n4,n5,e1,e2</span></label><input type="file" id="csvFile" accept=".csv,text/csv,text/plain" hidden><div id="sourceInfo" class="info">Keine Daten vorhanden</div></div>
+  <div class="panel"><h3>Forschungszeitraum</h3><label for="startDate" class="input-title">Rücktest beginnt am</label><input type="date" id="startDate" value="2021-10-21"><p class="helper">Für die Startschätzung dürfen vorherige Ziehungen als bekanntes Vorwissen dienen; bewertet wird erst ab diesem Datum.</p><button class="outline wide" id="btnRecalc">Historie neu durchlaufen</button></div>
+  <div class="panel"><h3>Daten sichern</h3><div class="stack"><button class="outline wide" id="btnExportArchive">Archiv als CSV exportieren</button><button class="outline wide" id="btnBackup">Komplettes Forschungsprotokoll sichern</button></div><p class="helper">Daten und Einstellungen werden auf deinem iPhone im Browser gespeichert. Löschen von Website-Daten kann diesen Speicher entfernen. Deshalb regelmäßig exportieren.</p></div>
+  <div class="note small">EuroJackpot ist ein Zufallsspiel. Die Anwendung ist eine Forschungssimulation, kein offizielles Lotterieangebot und keine Gewinnprognose. Stand der Methode: Version 0.1.</div></section>
+</main><nav class="bottom"><button class="tab active" data-tab="home"><span class="navicon">⌑</span><span>Übersicht</span></button><button class="tab" data-tab="history"><span class="navicon">≡</span><span>Protokoll</span></button><button class="tab" data-tab="data"><span class="navicon">▤</span><span>Daten</span></button></nav></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div><script>
+'use strict';
+window.EJEngine = (function(){
+  const NAMES = [
+    ['Zufall', 'Gleichmäßige Zufallsverteilung'],
+    ['Häufig', 'Jüngst häufiger gezogene Zahlen'],
+    ['Selten', 'Jüngst seltener gezogene Zahlen'],
+    ['Pause', 'Zahlen mit längerer Ziehungspause'],
+    ['Mittel', 'Häufigkeit über längeren Zeitraum'],
+    ['Folge', 'Zahlen nach der zuletzt gesehenen Ziehung']
+  ];
+  const FIRST_TUESDAY = '2022-03-29';
+  const FIRST_NEW_RULES = '2022-03-25';
+  const firstDate='2021-10-21';
+  function hash(s){let h=2166136261;for(let i=0;i<s.length;i++){h=Math.imul(h ^ s.charCodeAt(i),16777619);}return h>>>0;}
+  function rng(seed){let a=seed>>>0;return function(){a+=0x6D2B79F5;let t=a;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return ((t^(t>>>14))>>>0)/4294967296;};}
+  function seedFor(str){return rng(hash(str));}
+  function dateBerlin(){const parts= new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());const f=(x)=>parts.find(p=>p.type===x).value;return `${f('year')}-${f('month')}-${f('day')}`;}
+  function nextDraw(after){const dt=new Date(`${after}T12:00:00Z`);for(let i=0;i<9;i++){dt.setUTCDate(dt.getUTCDate()+1);const dow=dt.getUTCDay();const iso=dt.toISOString().slice(0,10);if (dow===5||(dow===2&&iso>=FIRST_TUESDAY))return iso;} throw new Error('Kein Ziehungstag gefunden');}
+  function isoValid(s){return /^\d{4}-\d{2}-\d{2}$/.test(s)&&!Number.isNaN(Date.parse(s+'T00:00:00Z'));}
+  function cleanDraw(date,main,euro){if(!isoValid(date))return null;
+    const a=main.map(Number),b=euro.map(Number);const maxEuro=date<FIRST_NEW_RULES?10:12;
+    if(a.length!==5||b.length!==2||new Set(a).size!==5||new Set(b).size!==2||a.some(n=>!Number.isInteger(n)||n<1||n>50)||b.some(n=>!Number.isInteger(n)||n<1||n>maxEuro))return null;
+    const dow=new Date(date+'T12:00:00Z').getUTCDay();if (dow!==5&&(dow!==2||date<FIRST_TUESDAY))return null;
+    return {date,main:a.sort((x,y)=>x-y),euro:b.sort((x,y)=>x-y)};
+  }
+  function parseCSV(text){const rows=text.trim().replace(/^\uFEFF/,'').split(/\r?\n/);const seen=new Map();let bad=0,duplicated=0;
+    for(const row of rows){const cols=row.trim().split(/[;,\t]/).map(s=>s.trim().replace(/^["']|["']$/g,''));if(cols.length<8 || !/^\d{4}-\d{2}-\d{2}$/.test(cols[0])){if(cols[0]!=='date' && row.trim())bad++;continue;}
+      const d=cleanDraw(cols[0],cols.slice(1,6),cols.slice(6,8));if(!d){bad++;continue;}
+      if(seen.has(d.date)){duplicated++;if(JSON.stringify(seen.get(d.date))!==JSON.stringify(d))throw new Error(`Widersprüchliche Daten für ${d.date}`);}else seen.set(d.date,d);
+    }
+    const out=Array.from(seen.values()).sort((a,b)=>a.date.localeCompare(b.date));if(out.length<2)throw new Error('Keine ausreichenden gültigen Ziehungen. Erwartet wird: date,n1,n2,n3,n4,n5,e1,e2');
+    return {draws:out,bad,duplicated};
+  }
+  function formatCSV(draws){return ['date,n1,n2,n3,n4,n5,e1,e2',...draws.map(d=>[d.date,...d.main,...d.euro].join(','))].join('\n');}
+  function getWeights(history,kind,forEuro,drawDate){const n=forEuro?12:50;const arr=Array(n+1).fill(1);
+    // A number that could not have been drawn before the 2022 rule change must not be treated as 'overdue'.
+    if(forEuro && drawDate>=FIRST_NEW_RULES)history=history.filter(d=>d.date>=FIRST_NEW_RULES);
+    if(!history.length)return arr;
+    let part,frequency;
+    if(kind===1||kind===2){part=history.slice(-30);frequency=Array(n+1).fill(0);part.forEach(d=>(forEuro?d.euro:d.main).forEach(x=>frequency[x]++));for(let i=1;i<=n;i++)arr[i] = kind===1?(1+frequency[i]):(1/(1+frequency[i])**0.7);}
+    else if(kind===3){const gaps=Array(n+1).fill(70);for(let k=history.length-1,j=0;k>=0&&j<70;k--,j++){for(const x of (forEuro?history[k].euro:history[k].main))if(gaps[x]===70)gaps[x]=j;}for(let i=1;i<=n;i++)arr[i]=1+gaps[i]/15;}
+    else if(kind===4){part=history.slice(-120);frequency=Array(n+1).fill(0);part.forEach(d=>(forEuro?d.euro:d.main).forEach(x=>frequency[x]++));const mean=(forEuro?2:5)*part.length/n;for(let i=1;i<=n;i++)arr[i]=0.75 + frequency[i]/(mean+1);}
+    else if(kind===5){const last=history[history.length-1], v=forEuro?last.euro:last.main;const counts=Array(n+1).fill(0),total=Array(n+1).fill(0);const matchHistory=history.slice(-180);for(let k=0;k<matchHistory.length-1;k++){
+      const a=forEuro?matchHistory[k].euro:matchHistory[k].main;const b=forEuro?matchHistory[k+1].euro:matchHistory[k+1].main;
+      const shared=a.reduce((sum,x)=>sum+(v.includes(x)?1:0),0); if(shared>0)b.forEach(x=>counts[x]+=shared);
+    }const mean=counts.slice(1).reduce((a,b)=>a+b,0)/n;for(let i=1;i<=n;i++)arr[i]=0.8+counts[i]/(mean+2);}
+    if(forEuro && drawDate<FIRST_NEW_RULES){arr[11]=0;arr[12]=0;}
+    return arr;
+  }
+  function pickWeighted(available,weights,r){let sum=0;for(const x of available)sum+=Math.max(.00001,weights[x]);let u=r()*sum;for(const x of available){u-=Math.max(.00001,weights[x]);if(u<=0)return x;}return available[available.length-1];}
+  function makeTips(history,date,kind){const r=seedFor(`EJL-2|${date}|${kind}`);const mw=getWeights(history,kind,false,date),ew=getWeights(history,kind,true,date);const mains=Array.from({length:50},(_,i)=>i+1);const euros=Array.from({length:date<FIRST_NEW_RULES?10:12},(_,i)=>i+1);
+    const tips=[];for(let a=0;a<4;a++){
+      const m=[],e=[];for(let i=0;i<5;i++){const x=pickWeighted(mains,mw,r);m.push(x);mains.splice(mains.indexOf(x),1);}
+      for(let i=0;i<2;i++){const x=pickWeighted(euros,ew,r);e.push(x);euros.splice(euros.indexOf(x),1);}
+      tips.push({main:m.sort((x,y)=>x-y),euro:e.sort((x,y)=>x-y)});
+    }return tips;
+  }
+  const classOf = {'5,2':1,'5,1':2,'5,0':3,'4,2':4,'4,1':5,'4,0':6,'3,2':7,'2,2':8,'3,1':9,'3,0':10,'1,2':11,'2,1':12};
+  function assess(tips,draw){const mainSet=new Set(draw.main),euroSet=new Set(draw.euro);let best=0, bestMain=0, bestEuro=0, totalMain=0, totalEuro=0;
+    const fields=tips.map(t=>{const m=t.main.filter(x=>mainSet.has(x)).length,e=t.euro.filter(x=>euroSet.has(x)).length,rank=classOf[`${m},${e}`]||0;
+      if(rank&&(best===0||rank<best))best=rank;bestMain=Math.max(bestMain,m);bestEuro=Math.max(bestEuro,e);totalMain+=m;totalEuro+=e;
+      return {m,e,rank};});
+    const reward= (best?1:0) + .045*totalMain + .025*totalEuro + .035*bestMain;return {win:best!==0,best,bestMain,bestEuro,totalMain,totalEuro,fields,reward};
+  }
+  function learn(draws,from=firstDate,today=dateBerlin()){
+    if(draws.length<20)throw new Error('Bitte mindestens 20 archivierte Ziehungen laden.');
+    const known=draws.filter(d=>d.date<=today), tests=known.filter(d=>d.date>=from),warmup=known.filter(d=>d.date<from);
+    if(!tests.length)throw new Error('Keine Ziehungen seit Startdatum vorhanden.');
+    const history=warmup.slice(-50),scores=NAMES.map(()=>0),totalWins=NAMES.map(()=>0); const journal=[];
+    for(let k=0;k<tests.length;k++){
+      const draw=tests[k];let bestI=0;for(let i=1;i<scores.length;i++)if(scores[i]>scores[bestI])bestI=i;
+      const expertRecords=NAMES.map((_,i)=>assess(makeTips(history,draw.date,i),draw));
+      const chosen=expertRecords[bestI];const tips=makeTips(history,draw.date,bestI);
+      for(let i=0;i<expertRecords.length;i++){const o=expertRecords[i];scores[i]+=o.reward;totalWins[i]+=o.win?1:0;}
+      journal.push({date:draw.date,main:draw.main,euro:draw.euro,model:bestI,tips,assess:chosen,cumulative:journal.length?journal[journal.length-1].cumulative+(chosen.win?1:0):(chosen.win?1:0),winners:expertRecords.map(x=>x.win)});
+      history.push(draw);
+    }
+    let model=0;for(let i=1;i<scores.length;i++)if(scores[i]>scores[model])model=i;
+    const lastDate=known[known.length-1].date;
+    const candidateNext=nextDraw(lastDate);
+    const nextDate=candidateNext;
+    const nextTips=makeTips(history,nextDate,model);
+    const winCount=journal.filter(x=>x.assess.win).length;
+    return {knownCount:known.length,total:journal.length,journal,models:NAMES,model,scores,totalWins,nextDate,nextTips,lastDate,winCount,winRate:winCount/journal.length,from,first:tests[0].date};
+  }
+  function checkIntegrity(draws){let gaps=[],valid=true;for(let i=1;i<draws.length;i++){let exp=nextDraw(draws[i-1].date);if(exp!==draws[i].date){gaps.push(`${draws[i-1].date} → ${draws[i].date}`);if(gaps.length>=12)break;}}return {gaps,valid:gaps.length===0};}
+  function csvLog(journal){const header='date,model,draw_main,draw_euro,tip1,tip2,tip3,tip4,best_rank,win,best_main,main_hits_total,euro_hits_total';return [header,...journal.map(x=>[x.date,NAMES[x.model][0],x.main.join('-'),x.euro.join('-'),...x.tips.map(t=>t.main.join('-')+'+'+t.euro.join('-')),x.assess.best,Number(x.assess.win),x.assess.bestMain,x.assess.totalMain,x.assess.totalEuro].join(','))].join('\n');}
+  return {NAMES,FIRST_NEW_RULES,firstDate,dateBerlin,nextDraw,parseCSV,formatCSV,makeTips,assess,learn,checkIntegrity,csvLog,cleanDraw};
+})();
+
+</script><script>
+'use strict';
+(()=>{
+const $=id=>document.getElementById(id);
+const e=window.EJEngine;
+const REMOTE='https://raw.githubusercontent.com/dev-baris/lottery-archive/main/eu/eurojackpot/results.csv';
+const KEY='EJ_LAB_V01_CSV', SOURCE='EJ_LAB_V01_SOURCE', START='EJ_LAB_V01_START';
+let store;try{const k='__ej_storage_test__';localStorage.setItem(k,'1');localStorage.removeItem(k);store=localStorage;}catch(err){const mem={};store={getItem:k=>mem[k]||null,setItem:(k,v)=>{mem[k]=String(v)}};}
+let archive=[],result=null,source='Keine Quelle',busy=false;
+function nice(date){if(!date||date==='–')return '–';return new Date(date+'T12:00:00Z').toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',timeZone:'UTC'});}
+function toast(message){const t=$('toast');t.textContent=message;t.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.classList.remove('show'),3500);}
+function drawTicket(t,i,detail=''){return `<article class="ticket"><div class="ticket-top"><b>TIPP ${i+1}</b><span>${detail}</span></div><div class="balls">${t.main.map(n=>`<span class="ball">${n}</span>`).join('')}<span class="plus">+</span>${t.euro.map(n=>`<span class="ball euro">${n}</span>`).join('')}</div></article>`;}
+function render(){if(!result){$('ticketList').innerHTML='<div class="empty">Zum Starten das Archiv laden. Auf „Daten“ tippen.</div>';return;}
+  $('nextDate').textContent=nice(result.nextDate);
+  const outOfDate=result.nextDate<=e.dateBerlin();
+  $('ticketList').innerHTML=(outOfDate?`<div class="note" style="margin:0 0 4px">Achtung: Die nächste Ziehung im Archiv (${nice(result.nextDate)}) liegt bereits in der Vergangenheit. Erst Archiv aktualisieren, um eine neue Prognose zu erhalten.</div>`:'') +result.nextTips.map((t,i)=>drawTicket(t,i,'NICHT SPIELEN')).join('');
+  $('metricDraws').textContent=result.total;
+  $('metricWins').textContent=result.winCount;
+  $('metricRate').textContent=(100*result.winRate).toFixed(2).replace('.',',')+' %';
+  $('metricModel').textContent=e.NAMES[result.model][0];
+  const min=Math.min(...result.scores),max=Math.max(...result.scores),ran=Math.max(max-min,1);
+  $('modelList').innerHTML=e.NAMES.map(([name,desc],i)=>`<div class="model ${i===result.model?'active':''}"><div class="model-heading"><div><b>${name}</b> <em>${result.totalWins[i]} Gewinnziehungen</em></div><span>${result.scores[i].toFixed(1)} Punkte</span></div><div class="bar"><div style="width:${Math.max(5,(result.scores[i]-min)/ran*100)}%"></div></div></div>`).join('');
+  $('historyMeta').textContent=`${result.total} Blindtests seit ${nice(result.first)} · ${result.winCount} Ziehungen mit Gewinnklasse · letzte ausgewertete Ziehung: ${nice(result.lastDate)}`;
+  const last=result.journal.slice(-60).reverse();
+  $('historyList').innerHTML=last.map(x=>`<details class="history-entry"><summary><span><b>${nice(x.date)}</b><br><small>${e.NAMES[x.model][0]} · ${x.assess.totalMain} Hauptzahlen über 4 Felder</small></span><span class="rank ${x.assess.win?'win':''}">${x.assess.win?'Gewinnklasse '+x.assess.best:'Kein Gewinn'} ↓</span></summary><div class="history-body"><p>Tatsächlich: ${x.main.join(' · ')} | Euro: ${x.euro.join(' · ')}</p>${x.tips.map((t,i)=>drawTicket(t,i,`${x.assess.fields[i].m}+${x.assess.fields[i].e}${x.assess.fields[i].rank?' · Rang '+x.assess.fields[i].rank:''}`)).join('')}</div></details>`).join('');
+  $('sourceInfo').textContent=`${source}\nArchiv: ${archive.length} Einträge (${nice(archive[0].date)} – ${nice(archive[archive.length-1].date)})\nAusgewertet: ${result.total} Ziehungen ab ${nice(result.first)}.\nRegelwechsel 25.03.2022 berücksichtigt.`;
+  $('dataStatus').classList.add('ready');$('dataStatus').innerHTML='<span class="dot"></span><span>'+archive.length+' Archiv-Ziehungen · Stand '+nice(result.lastDate)+'</span>';
+}
+function setDraws(parsed, label){archive=parsed.draws;source=label;
+  // Known dates are integrity checks, not used for training logic.
+  const control={'2022-03-25':['11-20-31-35-46','6-10'],'2026-10-13':['11-17-20-22-35','4-8'],'2026-10-16':['12-24-25-29-45','1-9'],'2026-10-20':['5-16-32-34-38','8-9']};
+  for(const [day,want] of Object.entries(control)){const found=archive.find(x=>x.date===day);if(found&&(found.main.join('-')!==want[0]||found.euro.join('-')!==want[1])){archive=[];throw Error('Archiv-Prüfung fehlgeschlagen am '+day+'. Bitte Quelle überprüfen.');}}
+  const check=e.checkIntegrity(archive);if(!check.valid){toast('Hinweis: Archiv hat Ziehungslücken. Details in der Datenansicht.');source+=' · mögliche Lücken: '+check.gaps.join(', ');}
+  if(parsed.bad||parsed.duplicated)source+=` · Ungültig: ${parsed.bad}, doppelt: ${parsed.duplicated}`;
+  try{store.setItem(KEY,e.formatCSV(archive));store.setItem(SOURCE,source);}catch(err){toast('Lokales Speichern nicht möglich – bitte exportieren.');}
+  recalc();
+}
+function recalc(){if(!archive.length)return;try{const value=$('startDate').value||e.firstDate;if(value>e.dateBerlin())throw Error('Startdatum darf nicht in der Zukunft liegen.');store.setItem(START,value);result=e.learn(archive,value);render();toast('Rücktest abgeschlossen: '+result.total+' Ziehungen.');}catch(err){result=null;$('sourceInfo').textContent=err.message;toast('Fehler: '+err.message);}}
+async function sync(){if(busy)return;busy=true;const btn=$('btnSync'),old=btn.textContent;btn.disabled=true;btn.textContent='Archiv wird geladen …';
+  try{const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),12000);let response;try{response=await fetch(REMOTE,{cache:'no-store',signal:controller.signal});}finally{clearTimeout(timeout);}if(!response.ok)throw Error('HTTP '+response.status);const raw=await response.text();const parsed=e.parseCSV(raw);if(parsed.draws.length<200)throw Error('Archiv ist unerwartet kurz.');setDraws(parsed,'Öffentliches Community-Archiv (GitHub) · geladen am '+nice(e.dateBerlin()));}
+  catch(err){toast('Online-Import fehlgeschlagen. CSV-Import über „Daten“ möglich.');if(!archive.length){$('sourceInfo').textContent='Automatischer Download fehlgeschlagen: '+err.message+'\nAlternativ die Archiv-CSV herunterladen und im Bereich „Daten“ importieren.';}}
+  finally{btn.disabled=false;btn.textContent=old;busy=false;}
+}
+function download(filename,content,type='text/plain;charset=utf-8'){const b=new Blob(['\uFEFF',content],{type}),url=URL.createObjectURL(b);const a=document.createElement('a');a.href=url;a.download=filename;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);}
+function changeTab(tab){document.querySelectorAll('.screen').forEach(el=>el.classList.toggle('active',el.id==='screen-'+tab));document.querySelectorAll('.tab').forEach(el=>el.classList.toggle('active',el.dataset.tab===tab));window.scrollTo({top:0,behavior:'instant'});}
+function setup(){document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>changeTab(t.dataset.tab)));
+  $('btnSync').addEventListener('click',sync);$('btnRecalc').addEventListener('click',recalc);
+  $('btnExportArchive').addEventListener('click',()=>archive.length?download('eurojackpot-archiv.csv',e.formatCSV(archive),'text/csv;charset=utf-8'):toast('Zuerst Archiv laden.'));
+  $('btnExportLog').addEventListener('click',()=>result?download('eurojackpot-blindtests.csv',e.csvLog(result.journal),'text/csv;charset=utf-8'):toast('Zuerst Lernsystem starten.'));
+  $('btnBackup').addEventListener('click',()=>result?download('eurojackpot-forschungsbackup.json',JSON.stringify({version:'0.1',source,generated:e.dateBerlin(),start:result.from,draws:archive,log:result.journal},null,2),'application/json'):toast('Zuerst Archiv laden.'));
+  $('csvFile').addEventListener('change',async(ev)=>{const file=ev.target.files&&ev.target.files[0];if(!file)return;try{const parsed=e.parseCSV(await file.text());setDraws(parsed,'Import vom iPhone: '+file.name);}catch(err){toast(err.message);}ev.target.value='';});
+  $('startDate').value=store.getItem(START)||e.firstDate;
+  const last=store.getItem(KEY);if(last){try{setDraws(e.parseCSV(last),store.getItem(SOURCE)||'Gespeichertes Archiv');}catch(err){toast('Gespeichertes Archiv ungültig: '+err.message);}}
+  if(navigator.onLine)sync();
+  if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+setup();
+})();
+
+</script></body></html>
